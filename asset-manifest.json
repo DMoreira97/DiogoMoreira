@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/DMoreira97.github.io/static/css/main.d1b05096.chunk.css",
-    "main.js": "/DMoreira97.github.io/static/js/main.5042dbec.chunk.js",
-    "main.js.map": "/DMoreira97.github.io/static/js/main.5042dbec.chunk.js.map",
-    "runtime-main.js": "/DMoreira97.github.io/static/js/runtime-main.9996314d.js",
-    "runtime-main.js.map": "/DMoreira97.github.io/static/js/runtime-main.9996314d.js.map",
-    "static/js/2.16ace03a.chunk.js": "/DMoreira97.github.io/static/js/2.16ace03a.chunk.js",
-    "static/js/2.16ace03a.chunk.js.map": "/DMoreira97.github.io/static/js/2.16ace03a.chunk.js.map",
-    "index.html": "/DMoreira97.github.io/index.html",
-    "precache-manifest.ea76708aff1fa676e202e95e3e092b58.js": "/DMoreira97.github.io/precache-manifest.ea76708aff1fa676e202e95e3e092b58.js",
-    "service-worker.js": "/DMoreira97.github.io/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/DMoreira97.github.io/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.16ace03a.chunk.js.LICENSE": "/DMoreira97.github.io/static/js/2.16ace03a.chunk.js.LICENSE",
-    "static/media/logo.svg": "/DMoreira97.github.io/static/media/logo.5d5d9eef.svg"
+    "main.css": "/DiogoMoreira/static/css/main.d1b05096.chunk.css",
+    "main.js": "/DiogoMoreira/static/js/main.ee584f0b.chunk.js",
+    "main.js.map": "/DiogoMoreira/static/js/main.ee584f0b.chunk.js.map",
+    "runtime-main.js": "/DiogoMoreira/static/js/runtime-main.8d4ed80e.js",
+    "runtime-main.js.map": "/DiogoMoreira/static/js/runtime-main.8d4ed80e.js.map",
+    "static/js/2.16ace03a.chunk.js": "/DiogoMoreira/static/js/2.16ace03a.chunk.js",
+    "static/js/2.16ace03a.chunk.js.map": "/DiogoMoreira/static/js/2.16ace03a.chunk.js.map",
+    "index.html": "/DiogoMoreira/index.html",
+    "precache-manifest.1a378eef6b75d5ad1c81b09c40bf6299.js": "/DiogoMoreira/precache-manifest.1a378eef6b75d5ad1c81b09c40bf6299.js",
+    "service-worker.js": "/DiogoMoreira/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/DiogoMoreira/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.16ace03a.chunk.js.LICENSE": "/DiogoMoreira/static/js/2.16ace03a.chunk.js.LICENSE",
+    "static/media/logo.svg": "/DiogoMoreira/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9996314d.js",
+    "static/js/runtime-main.8d4ed80e.js",
     "static/js/2.16ace03a.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.5042dbec.chunk.js"
+    "static/js/main.ee584f0b.chunk.js"
   ]
 }
