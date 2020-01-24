@@ -1,29 +1,28 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Card, ProgressBar } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 export default class Experience extends Component {
 
     render() {
         return(
-            <div
+            <div id="contacts"
                 style={{ width: '100%',
-                    color: 'var(--white-color)',
-                    backgroundColor:'var(--main-color)'}}>
+                    color: 'var(--black-color)'}}>
                 <h2>Contacts</h2>
                 <Container className="no-padding">
                     <Row className="no-margin">
-                        <Col lg={4} md={4} sm={6} >
+                        <Col lg={4} md={4} sm={6} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
-                                <Card.Title>Portural</Card.Title>
+                                <Card.Title>Portugal</Card.Title>
                                 <Card.Text>
                                     So, could reposed contracts. As parent, the you for of seen in checkin they are being
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={4} sm={6} >
+                        <Col lg={4} md={4} sm={6} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -34,7 +33,7 @@ export default class Experience extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={4} sm={6} >
+                        <Col lg={4} md={4} sm={6} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>

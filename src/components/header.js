@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SideNav, { NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 import styled from 'styled-components';
+import Scrollspy from 'react-scrollspy'
 
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
@@ -39,47 +40,104 @@ export default class Header extends Component {
     const { expanded } = this.state;
     /* Example with router: https://www.npmjs.com/package/@trendmicro/react-sidenav */
     return (
-      <SideNav
-        onToggle={this.onToggle}
-        style={{ backgroundColor: 'var(--main-color)', position: 'fixed' }}
-      >
+      <header>
+        <SideNav
+          onToggle={this.onToggle}
+          style={{ backgroundColor: 'var(--main-color)', position: 'fixed' }}>
           <SideNav.Toggle />
           <NavHeader expanded={expanded}>
             <NavTitle>
               Diogo Moreira
             </NavTitle>
           </NavHeader>
-          <SideNav.Nav defaultSelected="home">
-            <NavItem eventKey="home">
-              <NavIcon><i className="fas fa-fw fa-user" style={{ fontSize: '1.75em' }} /></NavIcon>
+          <SideNav.Nav>
+            <NavItem eventKey="aboutme">
+              <NavIcon><i className="fas fa-user" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>ABOUT ME</NavText>
+              <a href="#home" style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+                top: 0,
+                left: 0,
+                zIndex: 99
+              }}></a>
             </NavItem>
             <NavItem eventKey="skills">
-              <NavIcon><i className="fas fa-fw fa-cog" style={{ fontSize: '1.75em' }} /></NavIcon>
+              <NavIcon><i className="fas fa-cog" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>SKILLS</NavText>
+              <a href="#skills" style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+                top: 0,
+                left: 0,
+                zIndex: 99
+              }}></a>
             </NavItem>
             <NavItem eventKey="services">
-              <NavIcon><i className="fas fa-fw fa-tools" style={{ fontSize: '1.75em' }} /></NavIcon>
+              <NavIcon><i className="fas fa-tools" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>SERVICES</NavText>
+              <a href="#services" style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+                top: 0,
+                left: 0,
+                zIndex: 99
+              }}></a>
             </NavItem>
-            <NavItem eventKey="experiences">
-              <NavIcon><i className="fas fa-fw fa-graduation-cap" style={{ fontSize: '1.75em' }} /></NavIcon>
+            <NavItem eventKey="experience">
+              <NavIcon><i className="fas fa-graduation-cap" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>EXPERIENCES</NavText>
+              <a href="#experience" style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+                top: 0,
+                left: 0,
+                zIndex: 99
+              }}></a>
             </NavItem>
             <NavItem eventKey="portfolio">
-              <NavIcon><i className="fas fa-fw fa-book" style={{ fontSize: '1.75em' }} /></NavIcon>
+              <NavIcon><i className="fas fa-book" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>PORTFOLIO</NavText>
+              <a href="#portfolio" style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+                top: 0,
+                left: 0,
+                zIndex: 99
+              }}></a>
             </NavItem>
-            <NavItem eventKey="blog">
-              <NavIcon><i className="fas fa-fw fa-hourglass-half" style={{ fontSize: '1.75em' }} /></NavIcon>
+            <NavItem eventKey="hobbies">
+              <NavIcon><i className="fas fa-hourglass-half" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>HOBBIES</NavText>
+              <a href="#hobbies" style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+                top: 0,
+                left: 0,
+                zIndex: 99
+              }}></a>
             </NavItem>
             <NavItem eventKey="contacts">
-              <NavIcon><i className="fas fa-fw fa-address-card" style={{ fontSize: '1.75em' }} /></NavIcon>
+              <NavIcon><i className="fas fa-address-card" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>CONTACTS</NavText>
+              <a href="#contacts" style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+                top: 0,
+                left: 0,
+                zIndex: 99
+              }}></a>
             </NavItem>
           </SideNav.Nav>
-      </SideNav>
+        </SideNav>
+      </header>
     )
   }
 }

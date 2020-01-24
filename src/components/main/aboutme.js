@@ -7,11 +7,10 @@ export default class Aboutme extends Component {
 
     render() {
         return (
-            <div
+            <div id="aboutme"
                 style={{
                     width: '100%',
-                    color: 'var(--black-color)',
-                    marginTop: '64px'
+                    color: 'var(--black-color)'
                 }}>
                 <Container className="no-padding" style={{ marginBottom: '2em' }}>
                     <Row className="no-margin">

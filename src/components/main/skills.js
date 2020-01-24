@@ -5,13 +5,13 @@ export default class Skills extends Component {
 
     render() {
         return(
-            <div
+            <div id="skills"
                 style={{ width: '100%',
                     color: 'var(--black-color)'}}>
                 <h2>Skills</h2>
-                <Container className="no-padding" style={{ marginBottom: '2em' }}>
+                <Container className="no-padding">
                     <Row className="no-margin">
-                        <Col lg={4} md={6} sm={12} >
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -23,7 +23,7 @@ export default class Skills extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -35,7 +35,7 @@ export default class Skills extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -47,7 +47,7 @@ export default class Skills extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -59,7 +59,7 @@ export default class Skills extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -71,7 +71,7 @@ export default class Skills extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -83,11 +83,7 @@ export default class Skills extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                    </Row>
-                </Container>
-                <Container className="no-padding" style={{ marginBottom: '2em' }}>
-                    <Row className="no-margin">
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -99,7 +95,7 @@ export default class Skills extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -111,7 +107,7 @@ export default class Skills extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>

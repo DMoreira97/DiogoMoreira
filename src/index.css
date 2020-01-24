@@ -6,12 +6,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+ 
+html {
+  scroll-behavior: smooth;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+main > div {
+  margin-top: 64px;
+}
+footer {
+  margin-top: 64px;
+}
 .no-padding {
   padding: 0 !important;
   max-width: none !important;
@@ -23,12 +33,8 @@ code {
 }
 
 :root {
-  /* --main-color: #0035FF;
-  --second-color: #00B5FF; */
-  --main-color: #3F00FF;
-  --second-color: #6533FF;
-  --third-color: #00FFCA;
+  --main-color: #243138;
+  --second-color: #384C57;
   --white-color: #ffffff;
   --black-color: #000000;
-  --grey-color: #2c3336;
 }

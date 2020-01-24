@@ -5,13 +5,13 @@ export default class Services extends Component {
 
     render() {
         return(
-            <div
+            <div id="services"
                 style={{ width: '100%',
                     color: 'var(--black-color)'}}>
                 <h2>Services</h2>
-                <Container className="no-padding" style={{ marginBottom: '2em' }}>
+                <Container className="no-padding">
                     <Row className="no-margin">
-                        <Col lg={4} md={6} sm={12} >
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -22,7 +22,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -33,7 +33,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -44,7 +44,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -55,7 +55,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -66,7 +66,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -77,7 +77,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -88,7 +88,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -99,7 +99,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -110,7 +110,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -121,7 +121,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -132,7 +132,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -143,7 +143,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -154,7 +154,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -165,7 +165,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -176,7 +176,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -187,7 +187,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -199,11 +199,8 @@ export default class Services extends Component {
                             </Card>
                         </Col>
                     </Row>
-                </Container>
-
-                <Container className="no-padding" style={{ marginBottom: '2em' }}>
-                    <Row className="no-margin">
-                        <Col lg={4} md={6} sm={12}>
+                    <Row className="no-margin" style={{marginTop: '28px'}}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -214,7 +211,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -225,7 +222,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -236,7 +233,7 @@ export default class Services extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={6} sm={12}>
+                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>

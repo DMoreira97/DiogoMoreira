@@ -6,15 +6,15 @@ export default class Experience extends Component {
 
     render() {
         return (
-            <div
+            <div id="hobbies"
                 style={{
                     width: '100%',
                     color: 'var(--black-color)'
                 }}>
-                <h2>Portfolio</h2>
-                <Container className="no-padding" style={{ marginBottom: '2em' }}>
+                <h2>Hobbies</h2>
+                <Container className="no-padding">
                     <Row className="no-margin">
-                        <Col lg={6} md={6} sm={12} >
+                        <Col lg={6} md={6} sm={12} style={{marginTop: '30px'}}>
                             <ul>
                                 <li>Gym</li>
                                 <li>Piano</li>
@@ -23,7 +23,7 @@ export default class Experience extends Component {
                                 <li>Swimming</li>
                             </ul>
                         </Col>{/*  */}
-                        <Col lg={6} md={6} sm={12} >
+                        <Col lg={{span:4, offset:1}} md={6} sm={12} style={{marginTop: '30px'}} >
                             <img src={Me} alt="me.jpg" style={{
                                 width: '100%',
                                 borderRadius: '50%'
