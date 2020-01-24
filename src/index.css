@@ -53,8 +53,11 @@ footer {
 .progress-bar {
   background-color: var(--main-color) !important;
 }
-.card {
+.card, .sameback {
   background-color: var(--third-color);
+}
+main {
+  text-align: center;
 }
 #skills .card{
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
