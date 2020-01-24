@@ -19,6 +19,7 @@ code {
 main > div {
   margin-top: 64px;
 }
+
 footer {
   margin-top: 64px;
 }
@@ -33,8 +34,64 @@ footer {
 }
 
 :root {
-  --main-color: #243138;
-  --second-color: #384C57;
+  --main-color: #384C57;
+  --second-color: #88949a;
+  --third-color: #f7f8f8;
   --white-color: #ffffff;
   --black-color: #000000;
+}
+
+.networks > a {
+  color: var(--main-color) !important;
+}
+.networks > a > i:hover {
+  color: var(--second-color) !important;
+}
+.progress {
+  background-color: var(--white-color) !important;
+}
+.progress-bar {
+  background-color: var(--main-color) !important;
+}
+.card {
+  background-color: var(--third-color);
+}
+#skills .card{
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: box-shadow 1s; /* For Safari 3.1 to 6.0 */
+  transition: box-shadow 1s;
+}
+#skills .card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* ----------------- */
+#services {
+  isolation: isolate;
+}
+#services .card {
+  box-sizing: border-box;
+  position: relative;
+}
+#services .card::before, #services .card::after {
+  box-sizing: inherit;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#services .card::before, .center::after {
+  top: 0 !important;
+  left: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  transform-origin: center !important;
+}
+#services .card::before {
+  border-top: 2px solid #000 !important;
+  border-bottom: 2px solid #000 !important;
+  transform: scale3d(0, 1, 1) !important;
+}
+#services .card:hover::before, #services .card:hover::after {
+  transform: scale3d(1, 1, 1) !important;
+  transition: transform 0.5s !important;
 }

@@ -37,12 +37,13 @@ export default class Aboutme extends Component {
                                 width: '100%',
                                 display: 'flex',
                                 justifyContent: 'space-around',
-                                marginTop: '1em'
+                                marginTop: '1em',
+                                fontSize: '1.75em'
                             }}>
-                                <a target="_blank" rel='noopener noreferrer' href="https://www.linkedin.com/" ><i class="fab fa-linkedin fa-lg"></i></a>
-                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/"><i class="fab fa-github fa-lg"></i></a>
-                                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-lg"></i></a>
-                                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg"></i></a>
+                                <a target="_blank" rel='noopener noreferrer' href="https://www.linkedin.com/" ><i class="fab fa-linkedin"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/"><i class="fab fa-github"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                             </div>
                         </Col>
                     </Row>
