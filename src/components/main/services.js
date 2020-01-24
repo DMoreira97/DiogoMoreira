@@ -114,6 +114,28 @@ export default class Services extends Component {
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
+                                <Card.Title>AWS</Card.Title>
+                                <Card.Text>
+                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4} md={6} sm={12}>
+                            <Card style={{ width: '100%',
+                                color: 'var(--black-color)' }}>
+                                <Card.Body>
+                                <Card.Title>Git</Card.Title>
+                                <Card.Text>
+                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4} md={6} sm={12}>
+                            <Card style={{ width: '100%',
+                                color: 'var(--black-color)' }}>
+                                <Card.Body>
                                 <Card.Title>Mongodb</Card.Title>
                                 <Card.Text>
                                     So, could reposed contracts. As parent, the you for of seen in checkin they are being
