@@ -10,7 +10,7 @@ export default class Services extends Component {
                     color: 'var(--black-color)'}}>
                 <h2>Services</h2>
                 <Container className="no-padding" style={{ marginBottom: '2em' }}>
-                    <Row>
+                    <Row className="no-margin">
                         <Col lg={4} md={6} sm={12} >
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
@@ -202,7 +202,7 @@ export default class Services extends Component {
                 </Container>
 
                 <Container className="no-padding" style={{ marginBottom: '2em' }}>
-                    <Row>
+                    <Row className="no-margin">
                         <Col lg={4} md={6} sm={12}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>

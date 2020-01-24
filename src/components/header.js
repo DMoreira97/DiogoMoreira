@@ -51,31 +51,31 @@ export default class Header extends Component {
           </NavHeader>
           <SideNav.Nav defaultSelected="home">
             <NavItem eventKey="home">
-              <NavIcon><i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} /></NavIcon>
+              <NavIcon><i className="fas fa-fw fa-user" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>ABOUT ME</NavText>
             </NavItem>
             <NavItem eventKey="skills">
-              <NavIcon><i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} /></NavIcon>
+              <NavIcon><i className="fas fa-fw fa-cog" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>SKILLS</NavText>
             </NavItem>
             <NavItem eventKey="services">
-              <NavIcon><i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} /></NavIcon>
+              <NavIcon><i className="fas fa-fw fa-tools" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>SERVICES</NavText>
             </NavItem>
             <NavItem eventKey="experiences">
-              <NavIcon><i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} /></NavIcon>
+              <NavIcon><i className="fas fa-fw fa-graduation-cap" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>EXPERIENCES</NavText>
             </NavItem>
             <NavItem eventKey="portfolio">
-              <NavIcon><i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} /></NavIcon>
+              <NavIcon><i className="fas fa-fw fa-book" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>PORTFOLIO</NavText>
             </NavItem>
             <NavItem eventKey="blog">
-              <NavIcon><i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} /></NavIcon>
-              <NavText>INTEREST</NavText>
+              <NavIcon><i className="fas fa-fw fa-hourglass-half" style={{ fontSize: '1.75em' }} /></NavIcon>
+              <NavText>HOBBIES</NavText>
             </NavItem>
             <NavItem eventKey="contacts">
-              <NavIcon><i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} /></NavIcon>
+              <NavIcon><i className="fas fa-fw fa-address-card" style={{ fontSize: '1.75em' }} /></NavIcon>
               <NavText>CONTACTS</NavText>
             </NavItem>
           </SideNav.Nav>

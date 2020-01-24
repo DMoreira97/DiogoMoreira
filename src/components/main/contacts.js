@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Card, ProgressBar } from 'react-bootstrap';
-import Me from '../resources/me.png'
 
 export default class Experience extends Component {
 
@@ -12,7 +11,7 @@ export default class Experience extends Component {
                     backgroundColor:'var(--main-color)'}}>
                 <h2>Contacts</h2>
                 <Container className="no-padding">
-                    <Row>
+                    <Row className="no-margin">
                         <Col lg={4} md={4} sm={6} >
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>

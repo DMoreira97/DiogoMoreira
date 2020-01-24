@@ -10,7 +10,7 @@ export default class Experience extends Component {
                     color: 'var(--black-color)'}}>
                 <h2>Experience</h2>
                 <Container className="no-padding" style={{ marginBottom: '2em' }}>
-                    <Row>
+                    <Row className="no-margin">
                         <Col lg={6} md={6} sm={12} >
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
