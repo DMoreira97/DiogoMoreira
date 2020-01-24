@@ -72,7 +72,7 @@ export default class Header extends Component {
             </NavItem>
             <NavItem eventKey="blog">
               <NavIcon><i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} /></NavIcon>
-              <NavText>BLOG</NavText>
+              <NavText>INTEREST</NavText>
             </NavItem>
             <NavItem eventKey="contacts">
               <NavIcon><i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} /></NavIcon>

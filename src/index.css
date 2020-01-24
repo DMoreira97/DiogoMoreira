@@ -12,10 +12,17 @@ code {
     monospace;
 }
 
+.no-padding {
+  padding: 0 !important;
+}
+
 :root {
-  --main-color: #0035FF;
-  --second-color: #00B5FF;
+  /* --main-color: #0035FF;
+  --second-color: #00B5FF; */
+  --main-color: #3F00FF;
+  --second-color: #6533FF;
   --third-color: #00FFCA;
   --white-color: #ffffff;
+  --black-color: #000000;
   --grey-color: #2c3336;
 }
