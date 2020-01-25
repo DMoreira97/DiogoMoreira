@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b4fb83ca0a1783450ce7d033b698fe1",
+    "revision": "1ccf636d494d7306473c35e0fa1401a3",
     "url": "/DiogoMoreira/index.html"
   },
   {
-    "revision": "8f80f6074bebd3bfca3d",
+    "revision": "c5ff8eff405ae78d04cd",
     "url": "/DiogoMoreira/static/css/2.f6e6f51f.chunk.css"
   },
   {
-    "revision": "8a1c1a1dc08e07e8ee16",
+    "revision": "f43c4de1c340c3f63bf2",
     "url": "/DiogoMoreira/static/css/main.8d353640.chunk.css"
   },
   {
-    "revision": "8f80f6074bebd3bfca3d",
-    "url": "/DiogoMoreira/static/js/2.b0cbc100.chunk.js"
+    "revision": "c5ff8eff405ae78d04cd",
+    "url": "/DiogoMoreira/static/js/2.0de0c9e3.chunk.js"
   },
   {
     "revision": "7281b2fc40e19dd0622a01ff0d684d5d",
-    "url": "/DiogoMoreira/static/js/2.b0cbc100.chunk.js.LICENSE"
+    "url": "/DiogoMoreira/static/js/2.0de0c9e3.chunk.js.LICENSE"
   },
   {
-    "revision": "8a1c1a1dc08e07e8ee16",
-    "url": "/DiogoMoreira/static/js/main.78b9fede.chunk.js"
+    "revision": "f43c4de1c340c3f63bf2",
+    "url": "/DiogoMoreira/static/js/main.8bd533fa.chunk.js"
   },
   {
     "revision": "7108ca9096d80ce628b7",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "464eae75c05f76967c8376206b8f62bd",
     "url": "/DiogoMoreira/static/media/me.464eae75.jpg"
+  },
+  {
+    "revision": "6e5a8ce78febdea95d460f8369b1f658",
+    "url": "/DiogoMoreira/static/media/me2.6e5a8ce7.jpg"
   }
 ]);
