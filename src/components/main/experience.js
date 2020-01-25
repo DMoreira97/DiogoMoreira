@@ -252,6 +252,33 @@ export default class Experience extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
+                        <Col className="sameback" lg={12} md={12} sm={12} style={{ marginTop: '30px', width: '100%', height: '64px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 10%' }}>
+                            <i class="fas fa-laptop-code" style={{ fontSize: '40px' }}></i>
+                            <h3>Events</h3>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} style={{ marginTop: '30px' }}>
+                            <Card style={{
+                                width: '100%',
+                                color: 'var(--black-color)'
+                            }}>
+                                <Card.Body>
+                                    <Card.Title>ENEI</Card.Title>
+                                    <div style={{
+                                        color: 'var(--white-color)',
+                                        background: 'var(--main-color)',
+                                        position: 'absolute',
+                                        top: '16px',
+                                        right: -10,
+                                        padding: 4
+                                    }}>
+                                        <h5 style={{ margin: 0 }}>2019</h5>
+                                    </div>
+                                    <Card.Text>
+                                        National Meeting of Informatics Students
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
                     </Row>
                 </Container>
             </div>

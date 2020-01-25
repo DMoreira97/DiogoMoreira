@@ -15,9 +15,9 @@ export default class Experience extends Component {
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
-                                <Card.Title>Portugal</Card.Title>
+                                <Card.Title><i className="fas fa-envelope"></i></Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    diogom.o.moreira@gmail.com
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -26,9 +26,9 @@ export default class Experience extends Component {
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
-                                <Card.Title>Phone</Card.Title>
+                                <Card.Title><i className="fas fa-mobile-alt"></i></Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    (+ 351) 917 540 759
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -37,9 +37,9 @@ export default class Experience extends Component {
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
-                                <Card.Title>Email</Card.Title>
+                                <Card.Title><i className="fas fa-map-marker-alt"></i></Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    Currently living in Portugal, but free to work overseas
                                 </Card.Text>
                                 </Card.Body>
                             </Card>

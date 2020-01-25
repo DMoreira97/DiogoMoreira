@@ -11,19 +11,24 @@ export default class Experience extends Component {
                 <h2>Portfolio</h2>
                 <Container className="no-padding">
                     <Row className="no-margin">
-                        <Col lg={6} md={6} sm={12} style={{marginTop: '30px'}} >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit. Sit amet cursus sit amet dictum sit amet justo. Risus pretium quam vulputate dignissim suspendisse in est ante in. Ut tortor pretium viverra suspendisse. Sed vulputate mi sit amet mauris. Quam viverra orci sagittis eu volutpat odio facilisis mauris sit. Posuere ac ut consequat semper viverra nam libero justo laoreet. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Id diam maecenas ultricies mi eget mauris pharetra et ultrices. Lorem mollis aliquam ut porttitor leo. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Quis commodo odio aenean sed adipiscing. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Maecenas sed enim ut sem. Ut ornare lectus sit amet est placerat in egestas erat.
-                        Magna eget est lorem ipsum. Pretium aenean pharetra magna ac placerat vestibulum lectus. Sollicitudin aliquam ultrices sagittis orci. Porttitor rhoncus dolor purus non enim praesent. Quisque id diam vel quam elementum. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Pharetra pharetra massa massa ultricies mi quis. Fames ac turpis egestas maecenas pharetra convallis posuere morbi leo. Lobortis mattis aliquam faucibus purus. Sapien pellentesque habitant morbi tristique. Quis risus sed vulputate odio ut enim blandit. Id leo in vitae turpis massa sed elementum. Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Elit eget gravida cum sociis. Sed blandit libero volutpat sed. Accumsan in nisl nisi scelerisque. In fermentum posuere urna nec tincidunt praesent semper feugiat. Volutpat consequat mauris nunc congue. Sit amet mattis vulputate enim nulla. Ut enim blandit volutpat maecenas volutpat.
+                        <Col lg={6} md={6} sm={12} style={{
+                            marginTop: '30px',
+                            textAlign: 'left'}} >
+                            <p>I've done a few projects in college. The majority of them will be available in my github profile as soon as I end my masters degree. Till then the repositories will remain private. But one of these projects went online.</p>
                         </Col>
                         <Col lg={6} md={6} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
-                                <Card.Title>FEUP - MIEIC</Card.Title>
+                                <Card.Title>
+                                    <i class="fas fa-external-link-alt" style={{marginRight:8}}></i>
+                                    <a target="_blank" rel='noopener noreferrer' href="areyouok.earth" style={{
+                                        color: '(var(--main-color))'
+                                    }}>areyouok.earth</a>
+                                </Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    It is a site about the actual state of the environment, this state can be checked by year and country. Also, there are future predictions for the values shown.
                                 </Card.Text>
-                                <ProgressBar now={90} label={`${90}%`} />
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -31,13 +36,64 @@ export default class Experience extends Component {
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
-                                <Card.Title>FEUP - MIEIC</Card.Title>
+                                <Card.Title>
+                                    <i class="fas fa-external-link-alt" style={{marginRight:8}}></i>
+                                    <a target="_blank" rel='noopener noreferrer' href="https://www.diogomoreira.me" style={{
+                                        color: '(var(--main-color))'
+                                    }}>diogomoreira.me</a>
+                                </Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    This site is just a presentation about me and my work as a freelancer, keep in mind that this isn't the final product. (Hosted in AWS)
                                 </Card.Text>
-                                <ProgressBar now={90} label={`${90}%`} />
                                 </Card.Body>
                             </Card>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} style={{
+                            marginTop: '30px',
+                            textAlign: 'left'}} >
+                            <p>Late in 2019, as refered above, I took interest in joining the freelancer.com community to try and get more professional experience. For this I tried to create my own brand. Of course this project isn't close to being finished, but with college and other projects I didn't yet get the time to keep this going.</p>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} style={{
+                            marginTop: '30px',
+                            textAlign: 'left'}} >
+                            <p>As a normal student learniong a lot from the internet, I always had this need to try and repay the community. I'd do this by participating in forums and such. But then one day started my own youtube channel, with this same objective. I finished an HTML tutorial and started a CSS tutorial, but languages such as these ones are too exhaustive to explain and there are way better tutorials online. So I stopped. I'm took a step back, to learn more about video editing and finding new themes to talk about.</p>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} style={{marginTop: '30px'}}>
+                            <Card style={{ width: '100%',
+                                color: 'var(--black-color)' }}>
+                                <Card.Body>
+                                <Card.Title>
+                                    <i class="fas fa-external-link-alt" style={{marginRight:8}}></i>
+                                    <a target="_blank" rel='noopener noreferrer' href="https://www.youtube.com/channel/UCLdpYjCW40qUPBalDGyDPHg" style={{
+                                        color: '(var(--main-color))'
+                                    }}>youtube.com</a>
+                                </Card.Title>
+                                <Card.Text>
+                                    This youtube channel would also complemente my brand.
+                                </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} style={{marginTop: '30px'}}>
+                            <Card style={{ width: '100%',
+                                color: 'var(--black-color)' }}>
+                                <Card.Body>
+                                <Card.Title>
+                                    <i class="fas fa-external-link-alt" style={{marginRight:8}}></i>
+                                    <a target="_blank" rel='noopener noreferrer' href="https://www.mcavadasmoreira.com/" style={{
+                                        color: '(var(--main-color))'
+                                    }}>mcavadasmoreira.com</a>
+                                </Card.Title>
+                                <Card.Text>
+                                    This site is for a carpentry. (Hosted in AWS)
+                                </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={6} md={6} sm={12} style={{
+                            marginTop: '30px',
+                            textAlign: 'left'}} >
+                            <p>Last summer I've made this website for my father's business. Everything is online and working but the process capability of the AWS free tier server is very little, so the gallery tab is extremelly slow, I still need to find a solution for this.</p>
                         </Col>
                     </Row>
                 </Container>

@@ -8,7 +8,7 @@ export default class Footer extends Component {
             <footer
                 style={{
                     width: '100%',
-                    height: '64px',
+                    miHeight: '64px',
                     backgroundColor: 'var(--main-color)',
                     color: 'var(--white-color)',
                     display: 'flex',
@@ -21,14 +21,14 @@ export default class Footer extends Component {
                 }}>
                 <Container className="no-padding">
                     <Row className="no-margin">
-                        <Col lg={4} md={4} sm={6}>
+                        <Col lg={4} md={4} sm={6} style={{textAlign: 'center'}}>
                            I'd love to hear from you.
                         </Col>
-                        <Col lg={4} md={4} sm={6}>
+                        <Col lg={4} md={4} sm={6} style={{textAlign: 'center', wordWrap: 'break-word'}}>
                             dmoreira97.github.io/DiogoMoreira/ &copy;2020
                             
                         </Col>
-                        <Col lg={4} md={4} sm={6}>
+                        <Col lg={4} md={4} sm={6} style={{textAlign: 'center'}}>
                             <a href="#home" style={{color: 'white'}}><i class="fas fa-chevron-circle-up" style={{ fontSize: '1.75em' }}></i></a>                            
                         </Col>
                     </Row>
