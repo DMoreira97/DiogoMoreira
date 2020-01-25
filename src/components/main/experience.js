@@ -14,7 +14,7 @@ export default class Experience extends Component {
                 <Container className="no-padding">
                     <Row className="no-margin">
                         <Col className="sameback" lg={12} md={12} sm={12} style={{ marginTop: '30px', width: '100%', height: '64px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 10%' }}>
-                            <i class="fas fa-user-graduate" style={{ fontSize: '40px' }}></i>
+                            <i class="fas fa-user-graduate" style={{ fontSize: '40px', color: 'var(--main-color)'}}></i>
                             <h3>Education</h3>
                         </Col>
                         <Col lg={6} md={6} sm={12} style={{ marginTop: '30px' }}>
@@ -64,7 +64,7 @@ export default class Experience extends Component {
                             </Card>
                         </Col>
                         <Col className="sameback" lg={12} md={12} sm={12} style={{ marginTop: '30px', width: '100%', height: '64px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 10%' }}>
-                            <i class="fas fa-briefcase" style={{ fontSize: '40px' }}></i>
+                            <i class="fas fa-briefcase" style={{ fontSize: '40px', color: 'var(--main-color)'}}></i>
                             <h3>Employment</h3>
                         </Col>
                         <Col lg={6} md={6} sm={12} style={{ marginTop: '30px' }}>
@@ -114,7 +114,7 @@ export default class Experience extends Component {
                             </Card>
                         </Col>
                         <Col className="sameback" lg={12} md={12} sm={12} style={{ marginTop: '30px', width: '100%', height: '64px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 10%' }}>
-                            <i class="fas fa-building" style={{ fontSize: '40px' }}></i>
+                            <i class="fas fa-building" style={{ fontSize: '40px', color: 'var(--main-color)'}}></i>
                             <h3>Associativism</h3>
                         </Col>
                         <Col lg={6} md={6} sm={12} style={{ marginTop: '30px' }}>
@@ -253,7 +253,7 @@ export default class Experience extends Component {
                             </Card>
                         </Col>
                         <Col className="sameback" lg={12} md={12} sm={12} style={{ marginTop: '30px', width: '100%', height: '64px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 10%' }}>
-                            <i class="fas fa-laptop-code" style={{ fontSize: '40px' }}></i>
+                            <i class="fas fa-laptop-code" style={{ fontSize: '40px', color: 'var(--main-color)'}}></i>
                             <h3>Events</h3>
                         </Col>
                         <Col lg={6} md={6} sm={12} style={{ marginTop: '30px' }}>

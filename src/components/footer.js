@@ -8,7 +8,7 @@ export default class Footer extends Component {
             <footer
                 style={{
                     width: '100%',
-                    miHeight: '64px',
+                    minHeight: '64px',
                     backgroundColor: 'var(--main-color)',
                     color: 'var(--white-color)',
                     display: 'flex',

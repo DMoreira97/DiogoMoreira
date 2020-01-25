@@ -89,7 +89,7 @@ export default class Header extends Component {
             </NavItem>
             <NavItem eventKey="experience">
               <NavIcon><i className="fas fa-graduation-cap" style={{ fontSize: '1.75em' }} /></NavIcon>
-              <NavText>EXPERIENCES</NavText>
+              <NavText>EXPERIENCE</NavText>
               <a href="#experience" style={{
                 position: "absolute",
                 width: "100%",
