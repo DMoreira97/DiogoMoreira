@@ -41,6 +41,20 @@ footer {
   --black-color: #000000;
 }
 
+main > div > h1,
+main > div > h2,
+main > div > h3,
+main > div > h4,
+main > div > h5,
+main > div > h6 {
+  font-family: Montserrat,sans-serif !important;
+  font-weight: 700 !important;
+}
+main {
+  font-family: Muli,sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
 .networks > a {
   color: var(--main-color) !important;
 }
@@ -53,8 +67,19 @@ footer {
 .progress-bar {
   background-color: var(--main-color) !important;
 }
+.card {
+  height: 100%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .card, .sameback {
   background-color: var(--third-color);
+}
+.card-title {
+  font-weight: bold;
 }
 main {
   text-align: center;

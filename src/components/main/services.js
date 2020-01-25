@@ -17,7 +17,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>Java</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    I have participated in projects doing games for desktop and mobile (Swing, libGDX), also doing distributed systems.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -28,7 +28,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>JavaScript</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    I've worked on open environments using OpenGL and WebGL. And for true web development in websites and web applications.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -39,7 +39,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>React</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    I've used React on a few websites now, including this one. Majorly self-taught with help from the internet.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -50,7 +50,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>Laravel</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    Used it on a big project for an Erasmus social network, got to make the most out of the technology.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -61,7 +61,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>C/C++</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    I've done a lot with C/C++. Since low level algorithms for communication in a network, or prohramming drivers, to intelligent algorithms using OpenStreetMap.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -72,7 +72,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>Bootstrap</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    With React or with pure HTML and CSS I always try to use Bootstrap, if possible.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -81,9 +81,9 @@ export default class Services extends Component {
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
-                                <Card.Title>HTML</Card.Title>
+                                <Card.Title>HTML/CSS</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    Learned these when learning the basics. Use them whenever there's the need to.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -92,20 +92,9 @@ export default class Services extends Component {
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
-                                <Card.Title>CSS</Card.Title>
+                                <Card.Title>Node.js</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
-                                </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
-                            <Card style={{ width: '100%',
-                                color: 'var(--black-color)' }}>
-                                <Card.Body>
-                                <Card.Title>Nodejs</Card.Title>
-                                <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    Used Node.js on some projects now.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -116,7 +105,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>AWS</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    I have used AWS for personal projects. Mainly worked with the free tier.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -127,7 +116,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>Git</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    I use Git in every project. (Github, Gitlab, Bitbucket) It's the best tool to work in team. 
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -136,9 +125,9 @@ export default class Services extends Component {
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
-                                <Card.Title>Mongodb</Card.Title>
+                                <Card.Title>MongoDB</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    Used MongoDB on a few projects, it's nice and easy to work with.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -149,18 +138,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>ExpressJS</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
-                                </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col lg={4} md={6} sm={12} style={{marginTop: '30px'}}>
-                            <Card style={{ width: '100%',
-                                color: 'var(--black-color)' }}>
-                                <Card.Body>
-                                <Card.Title>MERN</Card.Title>
-                                <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    Always used ExpressJS with MongoDB, it makes everything simpler.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -171,7 +149,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>SQL</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    Learned SQL when learning about databases. Even though I use it less and less, I still know how to work with it.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -182,7 +160,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>PostgreSQL</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    Used it in the same project I used Laravel. It's quite intuitive on how to use.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -193,7 +171,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>PHP</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    Learned PHP when learning the basics about web development. It's not used much nowadays. 
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -206,7 +184,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>Adobe Illustrator</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    Self-learned. Used Illustrator on various projects outside college.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -217,7 +195,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>Adobe Premiere</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    Self-learned. Used Premiere on a few personal projects, as you'll see below.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -228,7 +206,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>Visual Basic</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    After Pascal, VB was the language I learned. It's possible to make interesting projects with VB, and of course connect to Excel.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -239,7 +217,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>Excel</Card.Title>
                                 <Card.Text>
-                                    So, could reposed contracts. As parent, the you for of seen in checkin they are being
+                                    I use Excel a lot, in and outside of college. 
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
