@@ -11,7 +11,7 @@ export default class Experience extends Component {
                 <h2>Contacts</h2>
                 <Container className="no-padding">
                     <Row className="no-margin">
-                        <Col lg={4} md={4} sm={6} style={{marginTop: '30px'}}>
+                        <Col lg={{ span: 4, offset: 2 }} md={{ span: 6, offset: 0 }} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
@@ -22,18 +22,7 @@ export default class Experience extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col lg={4} md={4} sm={6} style={{marginTop: '30px'}}>
-                            <Card style={{ width: '100%',
-                                color: 'var(--black-color)' }}>
-                                <Card.Body>
-                                <Card.Title><i className="fas fa-mobile-alt"></i></Card.Title>
-                                <Card.Text>
-                                    (+ 351) 917 540 759
-                                </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col lg={4} md={4} sm={6} style={{marginTop: '30px'}}>
+                        <Col lg={{ span: 4, offset: 0 }} md={{ span: 6, offset: 0 }} sm={12} style={{marginTop: '30px'}}>
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>

@@ -27,6 +27,7 @@ export default class Experience extends Component {
                                 marginLeft: 5
                             }}><i class="fas fa-chess-knight"></i></a></p>
                             <p>Travelling</p>
+                            <p>Cooking</p>
                             <p>Design</p>
                             <p>8 Ball Pool</p>
                             <p>Padel</p>
