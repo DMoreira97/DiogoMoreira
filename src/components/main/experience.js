@@ -58,7 +58,7 @@ export default class Experience extends Component {
                                         <h5 style={{ margin: 0 }}>2012 - 2015</h5>
                                     </div>
                                     <Card.Text>
-                                        Colégio Internato dos Carvalhos, Highschool in Informatics.
+                                        Colégio Internato dos Carvalhos, High School in Informatics.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -85,7 +85,7 @@ export default class Experience extends Component {
                                         <h5 style={{ margin: 0 }}>2018 - Present</h5>
                                     </div>
                                     <Card.Text>
-                                        I've done some websites with clients I got, but latelly I'm trying to join the freelancer.com community.
+                                        I've done some websites with clients I got, but lately I'm trying to join the freelancer.com community.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -135,7 +135,7 @@ export default class Experience extends Component {
                                         <h5 style={{ margin: 0 }}>2016 - 2019</h5>
                                     </div>
                                     <Card.Text>
-                                        Board of European Students of Tecchnology:
+                                        Board of European Students of Technology:
                                         <Container className="no-padding">
                                             <Row className="no-margin">
                                                 <Col lg={6} md={6} sm={6}> <p>Baby Member</p> </Col>

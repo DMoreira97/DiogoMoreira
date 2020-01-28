@@ -28,7 +28,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>JavaScript</Card.Title>
                                 <Card.Text>
-                                    I've worked on open environments using OpenGL and WebGL. And for true web development in websites and web applications.
+                                    I've worked with JS to make open environments using OpenGL and WebGL, plus, for true web development, to make websites and web applications.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -39,7 +39,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>React</Card.Title>
                                 <Card.Text>
-                                    I've used React on a few websites now, including this one. Majorly self-taught with help from the internet.
+                                    I've used React on a few websites now, including this one. Majorly self-taught with help from online tutorials.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -50,7 +50,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>Laravel</Card.Title>
                                 <Card.Text>
-                                    Used it on a big project for an Erasmus social network, got to make the most out of the technology.
+                                    I've used Laravel to make one big project on an Erasmus social network. It's a fine and intuitive technology.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -61,7 +61,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>C/C++</Card.Title>
                                 <Card.Text>
-                                    I've done a lot with C/C++. Since low level algorithms for communication in a network, or prohramming drivers, to intelligent algorithms using OpenStreetMap.
+                                    I've done a lot with C/C++. Since low level algorithms for communication in a network, or programming drivers, to intelligent algorithms using OpenStreetMap.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -83,7 +83,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>HTML/CSS</Card.Title>
                                 <Card.Text>
-                                    Learned these when learning the basics. Use them whenever there's the need to.
+                                    Learned these when picking up the basics. I can use them whenever there's the need to.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -94,7 +94,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>Node.js</Card.Title>
                                 <Card.Text>
-                                    Used Node.js on some projects now.
+                                    Used Node.js on some projects now. It's an easy and intuitive technology.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -116,7 +116,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>Git</Card.Title>
                                 <Card.Text>
-                                    I use Git in every project. (Github, Gitlab, Bitbucket) It's the best tool to work in team. 
+                                    I use Git in all of my projects (GitHub, GitLab, Bitbucket). It's the best tool to work in a team and to keep progress saved.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -149,7 +149,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>SQL</Card.Title>
                                 <Card.Text>
-                                    Learned SQL when learning about databases. Even though I use it less and less, I still know how to work with it.
+                                    Started on SQL when learning about databases. Even though it is used less and less, I still know how to work with it.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -171,7 +171,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>PHP</Card.Title>
                                 <Card.Text>
-                                    Learned PHP when learning the basics about web development. It's not used much nowadays. 
+                                    Got to know PHP when learning the basics about web development, although It fell out of use. 
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -217,7 +217,7 @@ export default class Services extends Component {
                                 <Card.Body>
                                 <Card.Title>Excel</Card.Title>
                                 <Card.Text>
-                                    I use Excel a lot, in and outside of college. 
+                                    I use Excel a lot in and outside of college. 
                                 </Card.Text>
                                 </Card.Body>
                             </Card>

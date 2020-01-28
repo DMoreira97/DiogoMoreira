@@ -40,12 +40,12 @@ export default class Aboutme extends Component {
                                 }}>IT Student / Web Developer</h3>
                             </div>
                             <p>
-                                Hello! My name is Diogo Moreira and I am wholly an ambitious person. As you will see below, I've joinned some associations, and in each one of them I always tried to take it up a notch each year. This meaning I've always tried to go up in the ranks of every asssociation, and doing so I learned a lot.
-                                Also the constant pressure of my master's degree obligated me to have an excellent time management. I was able to study and work at the same time for the majority of my degree, which is almost over.
-                                And of course I also have an good social life! Spending time with friends and familly is, for me, a very important thing.
+                                Hello! My name is Diogo Moreira and I am an ambitious person. As you will see below, I've joined some associations and in each one of them I always tried to take it up a notch each year. This means I've always tried to go up in the ranks of every association, and doing so I learned a lot.
+                                Also the constant pressure of my master's degree compelled me to develop my time management skills. I was able to study and work at the same time for the majority of my degree, which is almost over.
+                                And of course, I also have a good social life. Spending time with friends and family is, for me, a very important thing.
                                 <br />
                                 <br />
-                                All of this educated me on how to be a good professional having attributes such as: Dedication and drive as an hard-working individual; Versatile and able to adapt within an high-pressured emvironment; Developed comunication, team-building and leadership skills; Ability to manage multiple tasks in multiple different projects.
+                                All of this made me grow up as a good professional flourishing attributes such as: dedication and drive as a hard-working individual; versatile and able to adapt within a high-pressured environment; developed communication, team-building and leadership skills; ability to manage multiple tasks in multiple different projects.
                             </p>
                             <div className="networks" style={{
                                 width: '100%',

@@ -17,7 +17,7 @@ export default class Skills extends Component {
                                 <Card.Body>
                                 <Card.Title>Coding</Card.Title>
                                 <Card.Text>
-                                    I code along the lines defined for each project, and I have no problem using one way or another.
+                                    I can code with any predefined formatting for any project, always keeping the code clean and easy to understand.
                                 </Card.Text>
                                 <ProgressBar now={90} label={`${95}%`} />
                                 </Card.Body>
@@ -29,7 +29,7 @@ export default class Skills extends Component {
                                 <Card.Body>
                                 <Card.Title>Design</Card.Title>
                                 <Card.Text>
-                                    I'm not a designer. But I know what looks good and what not, so I try to keep everything cleaned up.
+                                    I'm not a designer, but I know what looks good and what not, so I try to keep everything cleaned up.
                                 </Card.Text>
                                 <ProgressBar now={90} label={`${75}%`} />
                                 </Card.Body>
@@ -41,7 +41,7 @@ export default class Skills extends Component {
                                 <Card.Body>
                                 <Card.Title>Full Stack Developer</Card.Title>
                                 <Card.Text>
-                                    What I've worked more lately is web development. But being it a website or an app, I can do both front and back-end.
+                                    My most recent work was on web development and I'm able to do both front and back-end, being it a website or a web application.
                                 </Card.Text>
                                 <ProgressBar now={90} label={`${90}%`} />
                                 </Card.Body>
@@ -53,7 +53,7 @@ export default class Skills extends Component {
                                 <Card.Body>
                                 <Card.Title>Communication</Card.Title>
                                 <Card.Text>
-                                    I always try to keep everyone posted on what's going on in a project, being team members, superiors, or clients.
+                                    I always keep everyone, from team members to superiors or clients, posted on the progress of a project.
                                 </Card.Text>
                                 <ProgressBar now={90} label={`${90}%`} />
                                 </Card.Body>
@@ -63,9 +63,9 @@ export default class Skills extends Component {
                             <Card style={{ width: '100%',
                                 color: 'var(--black-color)' }}>
                                 <Card.Body>
-                                <Card.Title>Teamwork/Team Spirit</Card.Title>
+                                <Card.Title>Teamwork</Card.Title>
                                 <Card.Text>
-                                    Working in a team can bring a lot of problems but I try to keep the spirits up and focus on the project.
+                                    I've worked many times in a team and I was consistently capable of gaining my co-workers trust through good problem solving and communication skills.    
                                 </Card.Text>
                                 <ProgressBar now={95} label={`${95}%`} />
                                 </Card.Body>
@@ -77,7 +77,7 @@ export default class Skills extends Component {
                                 <Card.Body>
                                 <Card.Title>Leadership</Card.Title>
                                 <Card.Text>
-                                    I've been the leader of a team more than once, and through trust and positivity within the team, I can get the job done.
+                                    I've been the leader of a team a few times and earned the respect of my team members being decisive and passionate about what we want to achieve.
                                 </Card.Text>
                                 <ProgressBar now={75} label={`${75}%`} />
                                 </Card.Body>
