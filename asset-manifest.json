@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DiogoMoreira/static/css/main.8d353640.chunk.css",
-    "main.js": "/DiogoMoreira/static/js/main.7c253a28.chunk.js",
-    "main.js.map": "/DiogoMoreira/static/js/main.7c253a28.chunk.js.map",
+    "main.js": "/DiogoMoreira/static/js/main.a628fe56.chunk.js",
+    "main.js.map": "/DiogoMoreira/static/js/main.a628fe56.chunk.js.map",
     "runtime-main.js": "/DiogoMoreira/static/js/runtime-main.8d4ed80e.js",
     "runtime-main.js.map": "/DiogoMoreira/static/js/runtime-main.8d4ed80e.js.map",
     "static/css/2.f6e6f51f.chunk.css": "/DiogoMoreira/static/css/2.f6e6f51f.chunk.css",
     "static/js/2.0de0c9e3.chunk.js": "/DiogoMoreira/static/js/2.0de0c9e3.chunk.js",
     "static/js/2.0de0c9e3.chunk.js.map": "/DiogoMoreira/static/js/2.0de0c9e3.chunk.js.map",
     "index.html": "/DiogoMoreira/index.html",
-    "precache-manifest.08752fc2ec363bbc0de408177b71fbdf.js": "/DiogoMoreira/precache-manifest.08752fc2ec363bbc0de408177b71fbdf.js",
+    "precache-manifest.d43648b6df8f2b205eaf3d8b33a62822.js": "/DiogoMoreira/precache-manifest.d43648b6df8f2b205eaf3d8b33a62822.js",
     "service-worker.js": "/DiogoMoreira/service-worker.js",
     "static/css/2.f6e6f51f.chunk.css.map": "/DiogoMoreira/static/css/2.f6e6f51f.chunk.css.map",
     "static/css/main.8d353640.chunk.css.map": "/DiogoMoreira/static/css/main.8d353640.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.f6e6f51f.chunk.css",
     "static/js/2.0de0c9e3.chunk.js",
     "static/css/main.8d353640.chunk.css",
-    "static/js/main.7c253a28.chunk.js"
+    "static/js/main.a628fe56.chunk.js"
   ]
 }

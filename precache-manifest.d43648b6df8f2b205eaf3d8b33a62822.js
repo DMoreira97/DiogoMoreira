@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdc4d544e0745a7ccf88c5e978a1add6",
+    "revision": "78abb7e46082931e59b0c0264ee94678",
     "url": "/DiogoMoreira/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DiogoMoreira/static/css/2.f6e6f51f.chunk.css"
   },
   {
-    "revision": "91a7047db3f53fcc42dc",
+    "revision": "a1cf17f9e7e636d065e9",
     "url": "/DiogoMoreira/static/css/main.8d353640.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DiogoMoreira/static/js/2.0de0c9e3.chunk.js.LICENSE"
   },
   {
-    "revision": "91a7047db3f53fcc42dc",
-    "url": "/DiogoMoreira/static/js/main.7c253a28.chunk.js"
+    "revision": "a1cf17f9e7e636d065e9",
+    "url": "/DiogoMoreira/static/js/main.a628fe56.chunk.js"
   },
   {
     "revision": "7108ca9096d80ce628b7",
